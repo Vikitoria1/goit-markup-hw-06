@@ -176,7 +176,6 @@ img {
   color: var(--hover-color);
 }
 
-
 .mob-menu-tel-link {
   color: var(--button-color);
   font-size: 36px;
@@ -196,13 +195,13 @@ img {
   line-height: 24px;
   letter-spacing: 0.4px;
   margin-bottom: 48px;
-} 
+}
 
 .mob-menu-soc {
   display: flex;
   gap: 56px;
   justify-content: space-evenly;
-    align-items: center;
+  align-items: center;
 }
 
 .mob-menu-item-soc {
