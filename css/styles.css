@@ -531,13 +531,11 @@ img {
 
 .footer-container {
   display: flex;
-  /* align-items: baseline; */
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .footer-box {
-  /* margin-right: 120px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1206,10 +1204,12 @@ margin-top: 72px;
 
   /*---FOOTER---*/
   .footer-container {
+    max-width: 568px;
     flex-direction: row;
     align-items: baseline;
     gap: 24px;
     row-gap: 72px;
+    justify-content: left;
   }
   .footer-box {
     display: flex;
@@ -1221,6 +1221,9 @@ margin-top: 72px;
   }
   .subscribe-container {
     width: 496px;
+  }
+  .footer-soc  {
+    margin: 0;
   }
   .footer-soc-title {
     text-align: unset;
@@ -1234,6 +1237,7 @@ margin-top: 72px;
   .footer-inpt {
     width: 264px;
     margin: 0;
+    margin-bottom: 0;
   }
   .footer-but {
     margin: 0;
@@ -1375,7 +1379,7 @@ margin-top: 72px;
     text-align: left;
   }
   .benefits-text {
-    font-weight: 4S00;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -1417,13 +1421,19 @@ margin-top: 72px;
   .footer-container {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    gap: 0;
+  }
+
+  .footer-box {
+    margin-right: 120px;
   }
 
   .footer-text {
     max-width: 264px;
   }
-
+.footer-soc {
+  margin-right: 80px;
+}
   .footer-soc-list {
     display: flex;
     flex-direction: row;
