@@ -331,7 +331,7 @@ img {
   text-transform: capitalize;
   color: var(--main-title-color);
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -622,17 +622,12 @@ margin-top: 72px;
 }
 
 .subscribe-container {
-  /* max-width: 453px;
-  margin-left: 80px; */
   width: 100%;
-  margin-top: 72px;
-  
 }
 
 .footer-form {
   display: block;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   gap: 24px;
 }
@@ -1220,7 +1215,7 @@ margin-top: 72px;
     margin-left: unset;
   }
   .subscribe-container {
-    width: 496px;
+    width: 453px;
   }
   .footer-soc  {
     margin: 0;
